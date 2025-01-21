@@ -38,7 +38,7 @@
   import store from '../store.js';
   import { f7 } from 'framework7-vue';
   import { ref, onMounted, onBeforeUpdate } from 'vue';
-  import { signOut } from '../lib/services/auth.service';
+  import { signOut } from '../services/auth.service';
   
   const user = ref(store.state.user);
 

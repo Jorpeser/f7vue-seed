@@ -49,7 +49,7 @@
 <script setup>
   import { ref } from 'vue';
   import { f7 } from 'framework7-vue';
-  import { signUp } from '../lib/services/auth.service';
+  import { signUp } from '../services/auth.service';
 
   const email = ref('');
   const password = ref('');

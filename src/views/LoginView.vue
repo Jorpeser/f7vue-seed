@@ -36,7 +36,7 @@
 <script setup>
   import { ref } from 'vue';
   import { f7 } from 'framework7-vue';
-  import { signInWithPassword } from '../lib/services/auth.service';
+  import { signInWithPassword } from '../services/auth.service';
 
   const email = ref('');
   const password = ref('');
